@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">The Luxury App</string>
+    <string name="action_search">Search</string>
+    <string-array name="House_index">
+        <item>History</item>
+        <item>Top Architectures</item>
+    </string-array>
+</resources>

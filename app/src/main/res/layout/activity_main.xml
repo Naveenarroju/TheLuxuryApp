@@ -1,0 +1,38 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp">
+
+        <Button
+            android:id="@+id/house"
+            android:layout_height="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/house"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="#D7CCC8"
+            android:text="House" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/car"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="#D7CCC8"
+            android:text="Cars" />
+
+
+    </TableRow>
+
+</TableLayout>
